@@ -486,9 +486,13 @@ rgba(47, 48, 58, 0.4)),
   padding-bottom: 27px;
   background-color:  rgba(47, 48, 58, 0.8);
   display: block;
-  
+
 }
 
+.card-thumb {
+  position: relative;
+  overflow: hidden;
+}
 
 .card-thumb-container > .our-work-text {
   text-align: center;
