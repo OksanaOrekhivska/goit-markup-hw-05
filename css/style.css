@@ -957,7 +957,7 @@ rgba(255, 255, 255, 0.1));
   padding: 63px 24px;
 }
 
-.portfolio-cards-link:hover .portfolio-cards-overlay {
+.portfolio-cards-thumb:hover .portfolio-cards-overlay {
   transform: translateY(0);
   opacity: 1;
 }
