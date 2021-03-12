@@ -481,7 +481,7 @@ rgba(47, 48, 58, 0.4)),
 .card-thumb-container {
   position: absolute;
   bottom: 0;
-  width: 370px;
+  width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
   background-color:  rgba(47, 48, 58, 0.8);
@@ -920,7 +920,7 @@ rgba(255, 255, 255, 0.1));
   padding: 30px 32px;
 }
 
-.element-card {
+.portfolio-cards-link {
   border-radius: 5px;
 }
 
@@ -931,35 +931,33 @@ rgba(255, 255, 255, 0.1));
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.card-thumb {
+.portfolio-cards-thumb {
   position: relative;
 }
   
-.element-actions {
+.portfolio-cards-overlay{
   position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(33, 150, 243, 0.9);
-    opacity: 0;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgb(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.actions-text {
-  
-  padding: 63px 24px;
-
+.portfolio-cards-actions-text {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
-  line-height: 1.5px;
+  line-height: 1.56;
   color: var(--white);
   letter-spacing: 0.03em;
+  padding: 63px 24px;
 }
 
-.element-card:hover .element-actions {
+.portfolio-cards-link:hover .portfolio-cards-overlay {
   transform: translateY(0);
   opacity: 1;
 }
