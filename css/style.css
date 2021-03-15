@@ -253,10 +253,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-image: url(../img/Img\ 17.jpg);
-  linear-gradient(
-  to-right,
-rgba(47, 48, 58, 0.4),
-rgba(47, 48, 58, 0.4)),
+  linear-gradient(to-right,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -326,12 +325,16 @@ rgba(47, 48, 58, 0.4)),
   right: 8px;
 }
 
+.modal-button:hover {
+color: var(--blue-active);
+}
+
 .close-black {
   width: 11px;
   height: 11px;
   top: 3px;
   left: 4px;
-  fill: var(--black)
+  fill: currentColor;
 }
 
 /*НАШІ ПЕРЕВАГИ */
@@ -558,6 +561,10 @@ rgba(47, 48, 58, 0.4)),
 
 .card-content {
   padding: 30px 59px 30px 60px;
+  
+}
+
+.element {
   background-color: var(--white);
 }
 
@@ -959,8 +966,9 @@ rgba(255, 255, 255, 0.1));
   padding: 63px 24px;
 }
 
-.portfolio-cards-thumb:hover .portfolio-cards-overlay {
-  transform: translateY(0);
+.portfolio-cards-link:hover .portfolio-cards-overlay,
+.portfolio-cards-link:focus .portfolio-cards-overlay {
+  transform: translateY(0); 
   opacity: 1;
 }
 
