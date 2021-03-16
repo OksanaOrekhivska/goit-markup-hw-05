@@ -330,8 +330,8 @@ color: var(--blue-active);
 }
 
 .close-black {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
   top: 3px;
   left: 4px;
   fill: currentColor;
